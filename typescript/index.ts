@@ -1,12 +1,21 @@
-import { Logger, Application } from "./creational-design-pattern/singleton"; 
+import { ConcretePrototype, Circle, Rectangle } from './creational-design-pattern/prototype';
+let user1 = new ConcretePrototype({
+  name: 'Alice',
+  age: 30,
+  email: 'alice@example.com',
+});
 
-const logger = Logger.getInstance();
-// logger.log("This is a log message.");
+let user2 = user1.clone();
 
-const logger2 = Logger.getInstance();
-// logger2.log("This is another log message.");
+let redRectangle = new Rectangle(
+  { color: 'red', x: 10, y: 20 },
+  100,
+  50
+);
+let anotherRedRectangle = redRectangle.clone();
+anotherRedRectangle.properties.color = 'green';
+let blueCircle = new Circle({ color: 'blue', x: 15, y: 25 }, 30);
+let anotherBlueCircle = blueCircle.clone();
 
-// console.log("Are both logger instances the same?", logger === logger2); // Should print true
-
-const app = new Application();
-app.run();
+console.log({ redRectangle, anotherRedRectangle });
+console.log({ user1, user2 });

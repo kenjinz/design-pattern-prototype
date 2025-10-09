@@ -1,4 +1,1 @@
-import {customer, fullCustomer} from './creational-design-pattern/builder'
-
-console.log(customer)
-console.log(fullCustomer)
+import {} from './creational-design-pattern/factory'

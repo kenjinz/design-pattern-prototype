@@ -1,1 +1,1 @@
-import {} from './creational-design-pattern/abstract-factory'
+import {} from './structural-design-pattern/facade'

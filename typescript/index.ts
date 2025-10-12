@@ -1,1 +1,1 @@
-import {} from './structural-design-pattern/composite'
+import {} from './structural-design-pattern/decorator'

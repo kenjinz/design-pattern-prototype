@@ -1,1 +1,1 @@
-import {} from './structural-design-pattern/bridge'
+import {} from './structural-design-pattern/composite'

@@ -1,1 +1,1 @@
-import {} from './structural-design-pattern/adapter'
+import {} from './behavioral-design-pattern/observer'

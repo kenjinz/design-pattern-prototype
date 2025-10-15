@@ -1,1 +1,1 @@
-import {} from './behavioral-design-pattern/iterator'
+import {} from './behavioral-design-pattern/strategy'

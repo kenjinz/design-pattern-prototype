@@ -1,1 +1,1 @@
-import {} from './behavioral-design-pattern/observer'
+import {} from './behavioral-design-pattern/iterator'

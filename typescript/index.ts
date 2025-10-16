@@ -1,1 +1,1 @@
-import {} from './behavioral-design-pattern/strategy'
+import {} from './behavioral-design-pattern/template-method'

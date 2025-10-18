@@ -1,1 +1,1 @@
-import {} from './behavioral-design-pattern/state'
+import {} from './behavioral-design-pattern/chain-of-responsibility'

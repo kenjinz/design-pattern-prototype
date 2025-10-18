@@ -1,1 +1,1 @@
-import {} from './behavioral-design-pattern/template-method'
+import {} from './behavioral-design-pattern/command'
